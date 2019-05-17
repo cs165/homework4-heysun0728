@@ -1,3 +1,47 @@
 /*
 TODO(you): Write any additional styles you need here.
 */
+#music{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#gif{
+    flex-grow: 1;
+}
+#foreground,
+#background{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:100;
+}
+#button{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-image: url("images/play.png");
+}
+#loading{
+    width:100vw;
+    height:100vh;
+    font-size: 2em;
+    font-style: italic;
+    color:#e2e2e2;
+    text-align:center;
+    line-height:100vh;
+    display:none;
+}
+
